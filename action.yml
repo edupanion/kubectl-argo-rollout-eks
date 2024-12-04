@@ -1,0 +1,9 @@
+name: kubectl-argo-rollout-eks
+description: "This action provides kubectl and kubectl argo rollouts for Github Actions."
+author: 'yechan'
+branding:
+  color: blue
+  icon: log-in
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
